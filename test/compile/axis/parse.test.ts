@@ -376,7 +376,6 @@ describe('Axis', () => {
 
     it('correctly combines different title', () => {
       const model = parseLayerModel({
-        $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
         data: {url: 'data/cars.json'},
         layer: [
           {
@@ -417,7 +416,6 @@ describe('Axis', () => {
 
     it('correctly combines different title with null', () => {
       const model = parseLayerModel({
-        $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
         data: {url: 'data/cars.json'},
         layer: [
           {
